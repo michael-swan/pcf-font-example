@@ -22,9 +22,12 @@ resolver: lts-9.0
 # will not be run. This is useful for tweaking upstream packages.
 packages:
 - '.'
-# - location:
-#    git: https://github.com/michael-swan/pcf-font.git
-#    commit: edd6bbfbcdd86efc0e56041ccacd397489185a61
+- location:
+   git: https://github.com/michael-swan/pcf-font.git
+   commit: e94a513ae99b7849c3d419fafb10e07a33e6f5f5
+- location:
+   git: https://github.com/michael-swan/pcf-font-embed.git
+   commit: 5e3fb78622d92015d354093bd2ce84e250d6a5cb
 # Dependency packages to be pulled from upstream that are not in the resolver
 # (e.g., acme-missiles-0.3)
 extra-deps: []

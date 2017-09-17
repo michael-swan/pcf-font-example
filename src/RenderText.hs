@@ -1,7 +1,7 @@
 import Graphics.Text.PCF
 import System.Environment
 
--- | USAGE: render-text <font.pcf> <text>
+-- | USAGE: render-text <font.pcf.gz> <text>
 main :: IO ()
 main = do
     [font_file, text] <- getArgs

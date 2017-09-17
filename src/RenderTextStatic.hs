@@ -1,7 +1,6 @@
 {-# LANGUAGE TemplateHaskell #-}
 import Graphics.Text.PCF
 import Graphics.Text.PCF.Embed
-import System.Environment
 
 -- | USAGE: render-text-static
 main :: IO ()

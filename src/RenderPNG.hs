@@ -1,10 +1,9 @@
 import Codec.Picture.Png
 import Codec.Picture.Types
-import Data.List
 import Graphics.Text.PCF
 import System.Environment
 
--- | USAGE: render-png <font.pcf> <output.png> <text>
+-- | USAGE: render-png <font.pcf.gz> <output.png> <text>
 main :: IO ()
 main = do
     [input_file, output_file, text] <- getArgs
